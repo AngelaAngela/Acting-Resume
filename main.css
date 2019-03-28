@@ -6,48 +6,67 @@
     
     body {
         background:#c8c7df;
-        margin-right: 10%;
+       
     } 
 
-    H1{
+    h1{
         color: black;
-        margin-left: 11%;
-        font-size: 25;
+        margin-top: 20px;
+        
     }
 
-    #mainPicDiv {
-         /* border: black 2px solid;  */
-         height: 100%;
-         width: 100%;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-       } 
-
-    
-
-       li {
+    li {
         display: inline;
-       }
+        padding-bottom: px;
+        
+       
+        
+     } 
 
-     #menuItems  {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-        justify-content: space-between;
-        } 
-    
     a {
         text-decoration: none;
-        margin-right: 10%;
+        margin-right: 10%; 
         color: black;
+        font-size: px;
+    } 
+
+    
+    .ulContainer {
+        display: flex;
+        border: black solid 2px;
+        justify-content: space-around;
+        align-items: flex-end;
+        width: 20%;
+        margin-right: 50px;
+        margin-bottom: 64keith
+        px;
+        font-size: 18px;
+       
     }
 
-    #li {
-        padding-right: 150px;
-        padding-top: 25px;
-        font-size: 18px;
-        float: right;
+    .navContainer {
+        border: black solid 2px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .name {
+        border: black solid 2px;
+        width: 18%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .title {
+        border: black solid 2px;
+         
+    }
+
+    li:hover {
+        border-bottom: 1px solid black;
     }
 
    
