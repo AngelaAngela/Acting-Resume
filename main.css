@@ -1,2 +1,30 @@
-.wrapper {
-    background: url(assets/KeithMain.jpg);
+ /* .wrapper {
+    background-image: url("); 
+    height: 100%;
+    width: 100%;
+    
+ } */
+
+    body {
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    }
+    
+    body {
+        background: #0e2338;
+    } 
+
+    H1{
+        color: white;
+    }
+
+    #mainPicDiv {
+         /* border: black 2px solid;  */
+         height: 100%;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-content: center
+       } 
+
+    
