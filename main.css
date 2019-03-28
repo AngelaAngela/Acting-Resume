@@ -1,21 +1,18 @@
- /* .wrapper {
-    background-image: url("); 
-    height: 100%;
-    width: 100%;
-    
- } */
-
+ 
     body {
     font-family: 'Open Sans Condensed', sans-serif;
-
+    margin: 
     }
     
     body {
-        background: #0e2338;
+        background:#c8c7df;
+        margin-right: 10%;
     } 
 
     H1{
-        color: white;
+        color: black;
+        margin-left: 11%;
+        font-size: 25;
     }
 
     #mainPicDiv {
@@ -24,7 +21,33 @@
          width: 100%;
          display: flex;
          justify-content: center;
-         align-content: center
+         align-items: center;
        } 
 
     
+
+       li {
+        display: inline;
+       }
+
+     #menuItems  {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+        } 
+    
+    a {
+        text-decoration: none;
+        margin-right: 10%;
+        color: black;
+    }
+
+    #li {
+        padding-right: 150px;
+        padding-top: 25px;
+        font-size: 18px;
+        float: right;
+    }
+
+   
