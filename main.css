@@ -1,7 +1,7 @@
  
     body {
         font-family: 'Raleway Dots', cursive;
-    background-color: black;
+        background-color: black;
     }
     
 
@@ -65,7 +65,7 @@
     }
 
     li:hover {
-        border-bottom: 1px solid white;
+        border-bottom: thin solid white;
     }
 
   
@@ -74,5 +74,23 @@
        width: 100%;
        display: flex;
        justify-content: center;
-       
-   }
+    }
+
+   /* .end { height: 100%;
+        width: 100%;
+        margin-top: 150px;
+   } */
+p {
+    color:white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #e3e3e3;
+    height: 100px;
+}
+
