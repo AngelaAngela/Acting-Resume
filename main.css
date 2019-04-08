@@ -80,14 +80,13 @@
 
 .wrapper {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-between; 
     align-items: center;  
     color: #e3e3e3;
     padding-left: 70px;
     height: 5em;
- 
-  
-   
+    border: white 2px solid;
+    margin-top: 2%;
 }
  
 .hvr-grow {
@@ -107,3 +106,25 @@
   .hvr-grow:active {
       transform: scale(1.2);
   }
+
+  /* bio--------------------------------- */
+
+  #whitePic {
+      width:50%;
+      height:45%;
+  }
+
+  p {
+      color: white;
+       width: 45%;
+       height:60%;
+   
+  }
+
+  #bio {
+
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     border: white 2px solid;
+     }
