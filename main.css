@@ -32,7 +32,7 @@
     
     .ulContainer {
         display: flex;
-        border: white solid 2px; 
+        /* border: white solid 2px;  */
         justify-content: space-around;
         align-items: flex-end;
         width: 40%;
@@ -43,7 +43,7 @@
     }
 
     .navContainer {
-        border: white solid 2px;
+        /* border: white solid 2px; */
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
@@ -112,12 +112,17 @@
   #whitePic {
       width:50%;
       height:45%;
+      margin-top: 20px;
+      
   }
 
   p {
       color: white;
        width: 45%;
        height:60%;
+    
+
+       
    
   }
 
@@ -125,7 +130,22 @@
 
      display: flex;
      justify-content: space-around;
-     align-items: center;
-     border: white 2px solid;
+     flex-flow: wrap;
+     /* height: 550px; */
+     border: white solid 2px;
+     
     
      }
+
+     #pone {
+         /* border: white solid 2px; */
+         width: 50%;
+         height: 1%;
+         margin-right: 37em;
+         padding-bottom: 20em ;
+         margin-top: -150px;
+         color: white;
+         text-align: center;
+     }
+
+     
