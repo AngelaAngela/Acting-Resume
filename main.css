@@ -1,14 +1,10 @@
-
-   body {
+body {
     font-family: 'Raleway Dots', cursive;
-    background-color:black;
-    color: deepskyblue;
-
+    background-color:white;
 }
 
 
 h1{
-    color:deepskyblue;
     margin-top: 20px;
     font-size: 40px;
     margin-left: 15px;
@@ -19,54 +15,40 @@ li {
     display: inline;
     padding-bottom: px;
     font-size: 20px;
-    
-   
-    
- } 
+} 
 
 a {
     text-decoration: none;
     margin-right: 10%; 
-    color: white;
+    color: deepskyblue;
    
 } 
 
 
 .ulContainer {
     display: flex;
-    /* border: white solid 2px;  */
     justify-content: space-around;
     align-items: flex-end;
     width: 40%;
     margin-right: 40px;
     margin-bottom: 40px;
     font-size: 50px;
-   
 }
 
 .navContainer {
-    /* border: white solid 2px; */
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 7px;
-    
-  
-   
 }
 
 .name {
-    /* border: white solid 2px; */
     width: 40%;
     padding: 10px;
     margin: 10px;
     font-size: 20px;
 }
 
-/* .title {
-    border: white solid 2px;
-     
-} */
 
 
 
@@ -87,7 +69,6 @@ align-items: center;
 color: #e3e3e3;
 padding-left: 70px;
 height: 5em;
-border: white 2px solid;
 margin-top: 2%;
 }
 
@@ -115,39 +96,17 @@ transition-property: transform;
   width:50%;
   height:45%;
   margin-top: 20px;
-  
-}
+  }
 
 p {
-  color: white;
+  color: black;
    width: 45%;
    height:60%;
-
-
-   
-
 }
 
 #bio {
-
  display: flex;
  justify-content: space-around;
  flex-flow: wrap;
- /* height: 550px; */
- border: white solid 2px;
- 
-
  }
 
- #pone {
-     /* border: white solid 2px; */
-     width: 50%;
-     height: 1%;
-     margin-right: 37em;
-     padding-bottom: 20em ;
-     margin-top: -150px;
-     color: white;
-     text-align: center;
- }
-
- 
