@@ -115,3 +115,29 @@ p {
     height: 8em;
     margin-top: 2%;
 }
+
+/* --------------------Projects */
+    
+#wholeThing{
+    display: flex;
+   
+}
+
+
+.movieContainer{
+   
+    width: 50%;
+    height: auto;
+    margin-left: 2em;
+}
+
+.paragraphContainer{
+    width: 100%;
+    height: auto ;
+    padding-left: 3em;
+    font-weight: bold;
+    border: solid black 2px;
+   
+}
+  
+     
