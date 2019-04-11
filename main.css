@@ -120,38 +120,42 @@ p {
     
 .wholeThing {
    display: flex;
-    padding-bottom:40px;
+   padding-bottom:40px;
+   margin-top: 20px;
+   border-left: deepskyblue solid 2px;
+   margin-left: 70px;
+   
     /* border: black solid 2px; */
-    /* width: 100%;
-    height: auto; */
-
 }
   
-  
-
- h2{
-      padding-bottom: 10px;
+  h2 {
+      background-color:deepskyblue;
+      width:  200px;
  }
 
-.movieContainer{
-    /* width: 50%; */
-    /* border: solid black 2px; */
-    /* display: flex; */
-    /* justify-content: space-between; */
-    margin-left: 20px;
-    height: 100%;
-    
+ #longName {
+     width: 250px;
+ }
 
+.movieContainer {
+    /* border: solid black 2px; */
+    margin-left: 50px;
+    height: 100%;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
 }
 
- .paraContainer{
-    border: solid black 2px;
-    padding-bottom: 80 px;
-    padding-left: 20px;
-    width: 50%;
+ .paraContainer {
+    /* border: solid black 2px; */
+    padding-left: 40px;x
     height: 100%;
-
     font-weight: bold;
-
     margin-right: 5px;
+    min-width: 800px;
+    
+ }
+
+ .titleDiv {
+     border-bottom: solid 2px deepskyblue;
+
  }
