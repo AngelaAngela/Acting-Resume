@@ -172,3 +172,29 @@ p {
     text-decoration: underline;
   }
   
+  /* -------contact------------------- */
+   #square {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid black;
+   }
+  
+  #blue{
+    
+      color:deepskyblue;
+      height: 50px;
+      width: 50px;
+      border: 2px black solid;
+
+  }
+
+  #white{
+    border: 2px black solid;
+    height: 50px;
+    width: 50px;
+  }
