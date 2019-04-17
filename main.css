@@ -96,18 +96,23 @@ transition-property: transform;
 
 /* bio--------------------------------- */
 
-.whitePic {
+/* .whitePic {
   width:50%;
   height:45%;
   margin-top: 20px;
+   */
   
-  }
+.gif{
+    width: 50%;
+    height:45%;
+    margin-top: 20px;
+}
 
 p {
   color: black;
   font-weight: bold;
    width: 45%;
-   height:60%;
+   height:50%;
 }
 
 #bio {
@@ -121,7 +126,7 @@ p {
     justify-content: space-around; 
     align-items: center;  
     height: 4em;
-    margin-top: 6%;
+    margin-top: 3%;
     /* border: black solid 2px; */
 }
 
@@ -198,3 +203,30 @@ p {
     height: 50px;
     width: 50px;
   }
+
+  #shower {
+      height: 50%;
+      width: 100%;
+  }
+
+  .contactDiv {
+    position: relative;
+  
+  }
+
+  .rightList {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .block {
+      display: block;
+  }
+   #list {
+       padding-right: 30%;
+       padding-top: 10%;
+   }
+ 
