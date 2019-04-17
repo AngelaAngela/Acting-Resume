@@ -212,21 +212,24 @@ p {
   .contactDiv {
     position: relative;
   
+  
   }
 
   .rightList {
     position: absolute;
     top: 8px;
-    right: 16px;
+    right: 110px;
     font-size: 18px;
     font-weight: bolder;
   }
 
   .block {
       display: block;
+      
   }
    #list {
-       padding-right: 30%;
+       
        padding-top: 10%;
+      
    }
  
