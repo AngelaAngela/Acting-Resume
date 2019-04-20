@@ -97,34 +97,31 @@ transition-property: transform;
 
 /* bio--------------------------------- */
 
+
+
+#bioContainer {
+    border: black solid 2px;
+    display: flex;
+}
+
+.child {
+    border: black solid 2px;
+   flex-grow: 1;
+   flex-basis: 100px;
+}
+
+.bioChildTwo {
+    flex-grow: 2;
+    padding-left: 10px;
+}
+
 /* .whitePic {
   width:50%;
   height:45%;
   margin-top: 20px;
    */
-  
-.gif{
-    width: 50%;
-    height:45%;
-    margin-top: 20px;
-}
-
-.bioPara {
-  color: black;
-  font-weight: bold;
-   width: 45%;
-   height:50%; 
-   line-height: 25px;
-  
-}
-
- #bioDiv {
- display: flex;
- justify-content: space-around;
- /* flex-flow: wrap; */
- }
-
- .wrapperTwo {
+ 
+.wrapperTwo {
     display: flex;
     justify-content: space-around; 
     align-items: center;  
@@ -132,7 +129,9 @@ transition-property: transform;
     margin-top: 3%;
     /* border: black solid 2px;  */
  }
-/* --------------------Projects */
+
+
+ /* --------------------Projects */
     
 .wholeThing {
    display: flex;
