@@ -1,5 +1,6 @@
 body {
-    font-family: 'Raleway Dots', cursive;
+    /* font-family: 'Raleway Dots', cursive; */
+    font-family: 'Roboto', sans-serif;
     background-color:white;
 }
 
@@ -108,17 +109,19 @@ transition-property: transform;
     margin-top: 20px;
 }
 
-p {
+.bioPara {
   color: black;
   font-weight: bold;
    width: 45%;
-   height:50%;
+   height:50%; 
+   line-height: 25px;
+  
 }
 
-#bio {
+ #bioDiv {
  display: flex;
  justify-content: space-around;
- flex-flow: wrap;
+ /* flex-flow: wrap; */
  }
 
  .wrapperTwo {
@@ -127,9 +130,8 @@ p {
     align-items: center;  
     height: 4em;
     margin-top: 3%;
-    /* border: black solid 2px; */
-}
-
+    /* border: black solid 2px;  */
+ }
 /* --------------------Projects */
     
 .wholeThing {
