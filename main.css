@@ -1,61 +1,30 @@
 body {
-    /* font-family: 'Raleway Dots', cursive; */
     font-family: 'Roboto', sans-serif;
     background-color:white;
-}
-
-
-h1{
-    font-size: 50px;
-    margin-left: 3%;
-    
-    
     
 }
-
-li {
-    display: inline;
-    font-size: 25px;
-    padding-top: 50px;
-    
-} 
 
 a {
     text-decoration: none;
     color: black;
-} 
-
-
-.ulContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    width: 40%;
-    margin-right: 10px;
-    font-size: 50px;
-    padding-right: 40px;
-    /* border: black solid 2px; */
-
 }
 
 .navContainer {
     display: flex;
+    flex-wrap: wrap ;
     justify-content: space-between;
-    align-items: flex-end;
-    height: 100px;
-    /* border: black solid 2px; */
+    text-decoration: none;
+    padding-top: .5em;
 }
+.navOne {
+    font-size: 3em;
+    padding-left: .5em;
+  }
 
-/* .name {
-    width: 40%;
-    margin: 10px;
-    font-size: 20px;
-    margin-top: 50px;
-    border: black solid 2px;
+.item {
+    padding: 2em;
+    font-size: 1.5em;
 }
- */
-
-
 
 #mainPics img {
    height: 100%;
