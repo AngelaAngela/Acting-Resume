@@ -9,14 +9,16 @@ a {
 
 .navContainer {
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     justify-content: space-between;
     text-decoration: none;
 }
+
 .navName {
     font-size: 3em;
     padding-left: .5em;
-  }
+    padding-top: .1em;
+}
 
 .item {
     padding: 2em;
@@ -24,37 +26,37 @@ a {
 }
 
 #mainPics img {
-   height: 100%;
-   width: 100%;
-   display: flex;
-   justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
 .linkWrapperMain {
-display: flex;
-justify-content: space-around; 
-align-items: center;  
-height: 4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4em;
 }
 
 
 .hvr-grow {
-display: inline-block;
-vertical-align: middle;
--webkit-transform: perspective(1px) translateZ(0);
-transform: perspective(1px) translateZ(0);
-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
--webkit-transition-duration: 0.3s;
-transition-duration: 0.3s;
--webkit-transition-property: transform;
-transition-property: transform;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
 
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-  transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /* bio--------------------------------- */
@@ -63,42 +65,42 @@ transition-property: transform;
     display: flex;
 }
 
-.bioChildOnes {
-   flex-grow: 1;
-   flex-basis: 100px;
+.bioChildOne {
+    flex-grow: 1;
+    flex-basis: 100px;
 }
 
 .bioChildTwo {
     flex-grow: 2;
     padding-left: 10px;
 }
- 
+
 .linkBioWrapper {
     display: flex;
-    justify-content: space-around; 
-    align-items: center;  
+    justify-content: space-around;
+    align-items: center;
     height: 4em;
     margin-top: 3%;
- }
-
-
- /* --------------------Projects */
-    
-.wholeThing {
-   display: flex;
-   padding-bottom:10px;
-   margin-top: 20px;
-   margin-left: 70px;
 }
-  
-h2 {
-    background-color:deepskyblue;
-    width:  200px;
- }
 
- #longName {
-     width: 250px;
- }
+
+/* --------------------Projects */
+
+.wholeThing {
+    display: flex;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+h2 {
+    background-color: deepskyblue;
+    width: 200px;
+}
+
+#longName {
+    width: 250px;
+}
 
 .movieContainer {
     margin-left: 50px;
@@ -107,31 +109,31 @@ h2 {
     padding-bottom: 30px;
 }
 
- .paraContainer {
+.paraContainer {
     padding-left: 40px;
     height: 100%;
     font-weight: bold;
     margin-right: 5px;
     min-width: 800px;
-    
- }
+
+}
 
 .projectLink:hover {
     text-decoration: underline;
-  }
-  
-  /* -------contact------------------- */
-   
-   #shower {
-      height: 50%;
-      width: 100%;
-  }
+}
 
-  .contactDiv {
+/* -------contact------------------- */
+
+#shower {
+    height: 50%;
+    width: 100%;
+}
+
+.contactDiv {
     position: relative;
-  }
+}
 
-  .contactListDiv {
+.contactListDiv {
     position: absolute;
     top: 7px;
     right: 10px;
@@ -139,25 +141,47 @@ h2 {
     font-weight: bolder;
 }
 
-  .block {
-      display: block;
-      padding: 30px;
-}
-    .contacts {
-        background-color: deepskyblue;
+.block {
+    display: block;
+    padding: 30px;
 }
 
-    #contactlist {
-        margin-top: 10px;
+.contacts {
+    background-color: deepskyblue;
 }
-  
- 
-   /* -----------media queries */
 
-   @media only screen and (max-width: 600px) {
-    /* For tablets: if browser is 600px or smaller*/
+#contactlist {
+    margin-top: 10px;
+}
 
-    @media only screen and (max-width: 768px) {
-        /* For desktop: 768 or smaller */
 
-        * For mobile phones: */
+/* -----------media queries */
+/* NAVIGATION BAR---------------- */
+@media (min-width: 320px) and (max-width: 479px){
+    .navName {
+        font-size: 2em;
+        margin: auto;
+        font-weight: bold;
+         }
+    }
+@media (min-width: 320px) and (max-width: 479px){
+        .item {
+        display: inline;
+        padding: 1em;
+        font-size: 1em;
+        }}
+    
+@media (min-width: 320px) and (max-width: 479px){
+        .navBar {
+            margin: auto;
+        }
+        }
+/* ---------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 479px){
+    .contactListDiv{
+        font-size: 12px;
+        
+
+    }
+}
