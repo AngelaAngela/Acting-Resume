@@ -1,7 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color:white;
-    
 }
 
 a {
@@ -14,9 +12,8 @@ a {
     flex-wrap: wrap ;
     justify-content: space-between;
     text-decoration: none;
-    padding-top: .5em;
 }
-.navOne {
+.navName {
     font-size: 3em;
     padding-left: .5em;
   }
@@ -34,17 +31,13 @@ a {
 }
 
 
-
-.wrapper {
+.linkWrapperMain {
 display: flex;
 justify-content: space-around; 
 align-items: center;  
 height: 4em;
 }
 
-.wrapper a{
-    padding-right: 60px;
-}
 
 .hvr-grow {
 display: inline-block;
@@ -66,15 +59,11 @@ transition-property: transform;
 
 /* bio--------------------------------- */
 
-
-
 #bioContainer {
-    border: black solid 2px;
     display: flex;
 }
 
-.child {
-    border: black solid 2px;
+.bioChildOnes {
    flex-grow: 1;
    flex-basis: 100px;
 }
@@ -83,20 +72,13 @@ transition-property: transform;
     flex-grow: 2;
     padding-left: 10px;
 }
-
-/* .whitePic {
-  width:50%;
-  height:45%;
-  margin-top: 20px;
-   */
  
-.wrapperTwo {
+.linkBioWrapper {
     display: flex;
     justify-content: space-around; 
     align-items: center;  
     height: 4em;
     margin-top: 3%;
-    /* border: black solid 2px;  */
  }
 
 
@@ -106,15 +88,12 @@ transition-property: transform;
    display: flex;
    padding-bottom:10px;
    margin-top: 20px;
-   /* border-left: deepskyblue solid 10px; */
    margin-left: 70px;
-   
-    /* border: black solid 2px; */
 }
   
-  h2 {
-      background-color:deepskyblue;
-      width:  200px;
+h2 {
+    background-color:deepskyblue;
+    width:  200px;
  }
 
  #longName {
@@ -122,7 +101,6 @@ transition-property: transform;
  }
 
 .movieContainer {
-    /* border: solid black 2px; */
     margin-left: 50px;
     height: 100%;
     margin-bottom: 70px;
@@ -130,7 +108,6 @@ transition-property: transform;
 }
 
  .paraContainer {
-    /* border: solid black 2px; */
     padding-left: 40px;
     height: 100%;
     font-weight: bold;
@@ -139,67 +116,48 @@ transition-property: transform;
     
  }
 
- .titleDiv {
-     border-bottom: solid 2px deepskyblue;
-}
-
 .projectLink:hover {
     text-decoration: underline;
   }
   
   /* -------contact------------------- */
-   #square {
-    margin: auto;
-    height: 100px;
-    width: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    border: 2px solid black;
-   }
-  
-  #blue{
-    
-      color:deepskyblue;
-      height: 50px;
-      width: 50px;
-      border: 2px black solid;
-
-  }
-
-  #white{
-    border: 2px black solid;
-    height: 50px;
-    width: 50px;
-  }
-
-  #shower {
+   
+   #shower {
       height: 50%;
       width: 100%;
   }
 
   .contactDiv {
     position: relative;
-  
-  
   }
 
-  .rightList {
+  .contactListDiv {
     position: absolute;
-    top: 8px;
-    right: 110px;
-    font-size: 18px;
+    top: 7px;
+    right: 10px;
+    font-size: 25px;
     font-weight: bolder;
-  }
+}
 
   .block {
       display: block;
-      
-  }
-   #list {
-       
-       padding-top: 10%;
-      
-   }
+      padding: 30px;
+}
+    .contacts {
+        background-color: deepskyblue;
+}
+
+    #contactlist {
+        margin-top: 10px;
+}
+  
  
+   /* -----------media queries */
+
+   @media only screen and (max-width: 600px) {
+    /* For tablets: if browser is 600px or smaller*/
+
+    @media only screen and (max-width: 768px) {
+        /* For desktop: 768 or smaller */
+
+        * For mobile phones: */
