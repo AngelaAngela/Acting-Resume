@@ -63,7 +63,9 @@ a {
 
 #bioContainer {
     display: flex;
+   
 }
+
 
 .bioChildOne {
     flex-grow: 1;
@@ -75,12 +77,23 @@ a {
     padding-left: 10px;
 }
 
+
+.bioChildTwo {
+    /* padding-left: 15px;
+    margin-right: 100px; */
+    margin-top: 70px;  
+   } 
+
 .linkBioWrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 4em;
     margin-top: 3%;
+}
+
+#bioGif {
+    border-radius: 50%;
 }
 
 
@@ -131,6 +144,7 @@ h2 {
 
 .contactDiv {
     position: relative;
+    
 }
 
 .contactListDiv {
@@ -150,38 +164,77 @@ h2 {
     background-color: deepskyblue;
 }
 
-#contactlist {
-    margin-top: 10px;
-}
 
 
 /* -----------media queries */
 /* NAVIGATION BAR---------------- */
-@media (min-width: 320px) and (max-width: 479px){
+@media (min-width: 320px) and (max-width: 479px) {
     .navName {
         font-size: 2em;
         margin: auto;
         font-weight: bold;
-         }
     }
-@media (min-width: 320px) and (max-width: 479px){
-        .item {
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .item {
         display: inline;
         padding: 1em;
         font-size: 1em;
-        }}
-    
-@media (min-width: 320px) and (max-width: 479px){
-        .navBar {
-            margin: auto;
-        }
-        }
-/* ---------------------------------------------- */
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .navBar {
+        margin: auto;
+    }
+}
+
+/* ------------------contacts------------------- */
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .block {
+        padding:10px;
+        
+        
+    }
+}
+
+
+
+
 
 @media (min-width: 320px) and (max-width: 479px){
     .contactListDiv{
-        font-size: 12px;
-        
-
+        position: static;
+        text-align: center;
+        padding-right: 45px;
+   
     }
 }
+
+
+
+
+
+
+/* ------------------bio--------------------------- */
+
+@media (min-width: 320px) and (max-width: 479px) {
+    #bioGif {
+        display: none;
+    }
+}
+
+/* @media (min-width: 320px) and (max-width: 479px) {
+    .bioChildTwo {
+        flex-grow: 4;
+    }
+} */
+    
+   
+
+
+
+
+/* -----------------projects----------------------- */
