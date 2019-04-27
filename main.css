@@ -136,11 +136,11 @@ h2 {
     /* border: 2px solid black; */
     width: 500px;
     padding-top: 10px;
-    
-    
-
 }
 
+.nameMobile {
+    display: none;
+}
 
 #breakWord {
     word-wrap: break-word;
@@ -282,7 +282,7 @@ h2 {
     .moviePic {
         height: 250px;
         width: 250px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         
        
 
@@ -302,13 +302,14 @@ h2 {
         
      
     
-/* @media (min-width: 320px) and (max-width: 479px) {
-    #longName {
-        
-        margin-bottom: 900px;
-        margin-right: 900px;
-        
+ @media (min-width: 320px) and (max-width: 479px) {
+    .nameMobile {
+        display: block;
+        text-align: center;
+        background-color: deepskyblue;
+        font-weight: bolder;
+
+      
     }
 }
- */
 
