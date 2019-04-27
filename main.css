@@ -63,7 +63,7 @@ a {
 
 #bioContainer {
     display: flex;
-   
+
 }
 
 
@@ -81,8 +81,8 @@ a {
 .bioChildTwo {
     /* padding-left: 15px;
     margin-right: 100px; */
-    margin-top: 70px;  
-   } 
+    margin-top: 70px;
+}
 
 .linkBioWrapper {
     display: flex;
@@ -116,12 +116,12 @@ h2 {
     /* border: 2px solid black; */
 }
 
- .picContainer {
-    margin-left: 50px; 
-    margin-bottom: 70px; 
-    
+.picContainer {
+    margin-left: 50px;
+    margin-bottom: 70px;
+
     /* border: 2px solid black; */
-     } 
+}
 
 .moviePic {
     border-radius: 50%;
@@ -130,7 +130,7 @@ h2 {
 }
 
 .paraContainer {
-   justify-content: flex-start;
+    justify-content: flex-start;
     padding-left: 40px;
     font-weight: bold;
     /* border: 2px solid black; */
@@ -159,7 +159,7 @@ h2 {
 
 .contactDiv {
     position: relative;
-    
+
 }
 
 .contactListDiv {
@@ -181,7 +181,8 @@ h2 {
 
 
 
-/* -----------media queries */
+/* -----------media queries 320-479  PORTRAIT-MOST SMART PHONES------------------------- */
+
 /* NAVIGATION BAR---------------- */
 @media (min-width: 320px) and (max-width: 479px) {
     .navName {
@@ -209,29 +210,17 @@ h2 {
 
 @media (min-width: 320px) and (max-width: 479px) {
     .block {
-        padding:10px;
-        
-        
+        padding: 10px;
     }
 }
 
-
-
-
-
-@media (min-width: 320px) and (max-width: 479px){
-    .contactListDiv{
+@media (min-width: 320px) and (max-width: 479px) {
+    .contactListDiv {
         position: static;
         text-align: center;
         padding-right: 45px;
-   
     }
 }
-
-
-
-
-
 
 /* ------------------bio--------------------------- */
 
@@ -246,73 +235,46 @@ h2 {
         margin-top: 20px;
     }
 }
-    
-   
-
-
-
 
 /* -----------------projects----------------------- */
 @media (min-width: 320px) and (max-width: 479px) {
     .wholeThing {
-        
         display: flex;
         margin: auto;
-       
         margin-top: 70px;
         width: 300px;
-        height:300px;
-        
-        
+        height: 300px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
     .picContainer {
-
         margin: auto;
-        
-     
-
-    
-       
-    }   
+    }
 }
-
 
 @media (min-width: 320px) and (max-width: 479px) {
     .moviePic {
         height: 250px;
         width: 250px;
         border: black solid 3px;
-        
-        
-       
-
-        
     }
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
     .paraContainer {
         display: none;
-    
-    
-        
     }
 }
-        
-     
-    
- @media (min-width: 320px) and (max-width: 479px) {
+
+@media (min-width: 320px) and (max-width: 479px) {
     .nameMobile {
         display: block;
         text-align: center;
         background-color: deepskyblue;
         font-weight: bolder;
-        
-
-      
     }
 }
+
+/* ----------MEDIA QUERIES 768-1024 LANDSCAPE --TABLETS, IPADS */
 
