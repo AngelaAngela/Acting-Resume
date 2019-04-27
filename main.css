@@ -255,11 +255,13 @@ h2 {
 /* -----------------projects----------------------- */
 @media (min-width: 320px) and (max-width: 479px) {
     .wholeThing {
-     
+        
+        display: flex;
         margin: auto;
-        border: black solid 2px;
-        margin-top: 20px;
+       
+        margin-top: 70px;
         width: 300px;
+        height:300px;
         
         
     }
@@ -267,8 +269,9 @@ h2 {
 
 @media (min-width: 320px) and (max-width: 479px) {
     .picContainer {
-        border: black solid 2px;
+       
         margin: auto;
+
     
        
     }   
@@ -288,8 +291,9 @@ h2 {
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
-    .moviePara {
+    .paraContainer {
         display: none;
+     
         /* border: black solid 2px; */
     
         
@@ -298,13 +302,13 @@ h2 {
         
      
     
-@media (min-width: 320px) and (max-width: 479px) {
-    .paraContainer {
+/* @media (min-width: 320px) and (max-width: 479px) {
+    #longName {
         
-        /* border: black solid 2px; */
-    
+        margin-bottom: 900px;
+        margin-right: 900px;
         
     }
 }
-
+ */
 
