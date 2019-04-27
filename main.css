@@ -99,13 +99,6 @@ a {
 
 /* --------------------Projects */
 
-.wholeThing {
-    display: flex;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    margin-left: 70px;
-}
-
 h2 {
     background-color: deepskyblue;
     width: 200px;
@@ -115,20 +108,42 @@ h2 {
     width: 250px;
 }
 
-.movieContainer {
-    margin-left: 50px;
-    height: 100%;
-    margin-bottom: 70px;
-    padding-bottom: 30px;
+.wholeThing {
+    display: flex;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+    /* border: 2px solid black; */
+}
+
+ .picContainer {
+    margin-left: 50px; 
+    margin-bottom: 70px; 
+    
+    /* border: 2px solid black; */
+     } 
+
+.moviePic {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
 
 .paraContainer {
+   justify-content: flex-start;
     padding-left: 40px;
-    height: 100%;
     font-weight: bold;
-    margin-right: 5px;
-    min-width: 800px;
+    /* border: 2px solid black; */
+    width: 500px;
+    padding-top: 10px;
+    
+    
 
+}
+
+
+#breakWord {
+    word-wrap: break-word;
 }
 
 .projectLink:hover {
@@ -226,11 +241,11 @@ h2 {
     }
 }
 
-/* @media (min-width: 320px) and (max-width: 479px) {
+@media (min-width: 320px) and (max-width: 479px) {
     .bioChildTwo {
-        flex-grow: 4;
+        margin-top: 20px;
     }
-} */
+}
     
    
 
@@ -238,3 +253,58 @@ h2 {
 
 
 /* -----------------projects----------------------- */
+@media (min-width: 320px) and (max-width: 479px) {
+    .wholeThing {
+     
+        margin: auto;
+        border: black solid 2px;
+        margin-top: 20px;
+        width: 300px;
+        
+        
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .picContainer {
+        border: black solid 2px;
+        margin: auto;
+    
+       
+    }   
+}
+
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .moviePic {
+        height: 250px;
+        width: 250px;
+        margin-bottom: 25px;
+        
+       
+
+        
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    .moviePara {
+        display: none;
+        /* border: black solid 2px; */
+    
+        
+    }
+}
+        
+     
+    
+@media (min-width: 320px) and (max-width: 479px) {
+    .paraContainer {
+        
+        /* border: black solid 2px; */
+    
+        
+    }
+}
+
+
