@@ -269,8 +269,10 @@ h2 {
 
 @media (min-width: 320px) and (max-width: 479px) {
     .picContainer {
-       
+
         margin: auto;
+        
+     
 
     
        
@@ -282,7 +284,8 @@ h2 {
     .moviePic {
         height: 250px;
         width: 250px;
-        margin-bottom: 15px;
+        border: black solid 3px;
+        
         
        
 
@@ -293,8 +296,7 @@ h2 {
 @media (min-width: 320px) and (max-width: 479px) {
     .paraContainer {
         display: none;
-     
-        /* border: black solid 2px; */
+    
     
         
     }
@@ -308,6 +310,7 @@ h2 {
         text-align: center;
         background-color: deepskyblue;
         font-weight: bolder;
+        
 
       
     }
