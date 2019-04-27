@@ -111,13 +111,14 @@ h2 {
 .wholeThing {
     display: flex;
     padding-bottom: 10px;
-    margin-top: 20px;
-    margin-left: 70px;
+    padding-top: 10px;
+    margin-top: px;
+    margin-left: 100px;
     /* border: 2px solid black; */
-}
+    }
 
 .picContainer {
-    margin-left: 50px;
+    margin-left: 45px;
     margin-bottom: 70px;
 
     /* border: 2px solid black; */
@@ -135,15 +136,31 @@ h2 {
     font-weight: bold;
     /* border: 2px solid black; */
     width: 500px;
-    padding-top: 10px;
+    padding-top: 25px;
+    height: 300px;
+}
+
+
+#filmShortage {
+    height: 100px;
+    width: 140px;
 }
 
 .nameMobile {
     display: none;
 }
 
-#breakWord {
-    word-wrap: break-word;
+
+.bold:after {
+    content: ' \22EF' ' \22EF';
+}
+
+.bold:before {
+    content: ' \22EF' ' \22EF';
+}
+.italic {
+    font-style: italic;
+    font-weight: bold;
 }
 
 .projectLink:hover {
@@ -181,9 +198,10 @@ h2 {
 
 
 
-/* -----------media queries 320-479  PORTRAIT-MOST SMART PHONES------------------------- */
+/* -----------media queries 320-479--MOST SMART PHONES------------------------- */
 
 /* NAVIGATION BAR---------------- */
+
 @media (min-width: 320px) and (max-width: 479px) {
     .navName {
         font-size: 2em;
@@ -276,5 +294,48 @@ h2 {
     }
 }
 
-/* ----------MEDIA QUERIES 768-1024 LANDSCAPE --TABLETS, IPADS */
 
+/* ----------MEDIA QUERIES 768-1024 LANDSCAPE --TABLETS, IPADS */
+/* looks good */
+
+
+
+/* ----------MEDIA QUERIES 768-1024 PORTRAIT---TABLETS, IPADS */
+
+
+/* NAV BAR */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    .navName {
+        font-size: 2em;
+        margin: auto;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .item {
+        display: inline;
+        padding: 1em;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .navBar {
+        margin: auto;
+    }
+}
+
+/* BIO */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    #bioGif {
+        display: ;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .bioChildTwo {
+        margin-top: 20px;
+    }
+}
