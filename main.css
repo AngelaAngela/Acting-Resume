@@ -78,8 +78,9 @@ a {
     padding-left: 15px;
     padding-right: 30px;
     margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Dosis';
 }
-
 
 .linkBioWrapper {
     display: flex;
@@ -121,6 +122,11 @@ h2 {
     /* border: 2px solid black; */
 }
 
+
+
+  
+  
+
 .moviePic {
     border-radius: 50%;
     height: 400px;
@@ -136,7 +142,42 @@ h2 {
     padding-top: 25px;
     height: 300px;
 }
+.img {
+    border-radius: 100%;
+    display: flex;
+    flex: 0 0 400px;
+    height: 400px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  
+  }
 
+  .img img {
+    height: 100%;
+  }
+
+  .img__overlay {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 0.25s;
+    z-index: 1;
+    
+    background-color: rgba((116, 10, 93,));
+    background: linear-gradient(65deg, rgba(111, 91, 183, 0.69), rgba(33, 10, 116, 0.69)); 
+    color: white;
+    font-size: 24px;
+  }
+
+
+  
 
 #filmShortage {
     height: 100px;
@@ -164,6 +205,11 @@ h2 {
     text-decoration: underline;
 }
 
+.img__overlay:hover {
+    opacity: 1;
+  }
+  
+   
 /* -------contact------------------- */
 
 #shower {
@@ -272,7 +318,6 @@ h2 {
     .moviePic {
         height: 250px;
         width: 250px;
-        border: black solid 3px;
     }
 }
 
@@ -290,7 +335,6 @@ h2 {
         font-weight: bolder;
     }
 }
-
 
 /* ----------MEDIA QUERIES 768-1024 LANDSCAPE --TABLETS, IPADS */
 /* looks good */
