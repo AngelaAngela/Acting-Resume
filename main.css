@@ -66,7 +66,6 @@ a {
 
 }
 
-
 .bioChildOne {
     flex-grow: 1;
     flex-basis: 100px;
@@ -94,6 +93,10 @@ a {
     border-radius: 50%;
 }
 
+#bioPic {
+    display: none ;
+}
+
 
 /* --------------------Projects */
 
@@ -117,9 +120,7 @@ h2 {
 
 .picContainer {
     margin-left: 45px;
-    margin-bottom: 70px;
-
-    /* border: 2px solid black; */
+    margin-bottom: 70px;   
 }
 
 
@@ -171,9 +172,6 @@ h2 {
     color: white;
     font-size: 24px;
   }
-
-
-  
 
 #filmShortage {
     height: 100px;
@@ -237,6 +235,8 @@ h2 {
 
 
 
+
+
 /* -----------media queries 320-479--MOST SMART PHONES------------------------- */
 
 /* NAVIGATION BAR---------------- */
@@ -293,6 +293,14 @@ h2 {
     }
 }
 
+@media (min-width: 320px) and (max-width: 479px) {
+    .bioPic {
+      
+    }
+}
+
+
+
 /* -----------------projects----------------------- */
 @media (min-width: 320px) and (max-width: 479px) {
     .wholeThing {
@@ -340,29 +348,22 @@ h2 {
    
 
     }}
-    /* img {
-        border-radius: 100%;
-        display: flex;
-        flex: 0 0 400px;
-        height: 400px;
-        justify-content: center;
-        overflow: hidden;
-        position: relative;
-    } */
+
 
 
   
 
-/* ----------MEDIA QUERIES 768-1024 LANDSCAPE --TABLETS, IPADS */
+/* ----------MEDIA QUERIES 768-1023 LANDSCAPE --TABLETS, IPADS */
 /* looks good */
 
 
 
+
+
+
 /* ----------MEDIA QUERIES 768-1024 PORTRAIT---TABLETS, IPADS */
-
-
 /* NAV BAR */
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
     .navName {
         font-size: 2em;
         margin: auto;
@@ -370,7 +371,7 @@ h2 {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
     .item {
         display: inline;
         padding: 1em;
@@ -378,22 +379,181 @@ h2 {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
     .navBar {
         margin: auto;
     }
 }
 
 /* BIO */
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
-    #bioGif {
-        display: ;
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+   #bioPic  {
+        
+        height: 400px;
+        width:px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;   
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    .bioChildTwo {
-        margin-top: 20px;
+    #bioGif  {
+         display: none; 
+     }
+ }
+
+ @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+    .bioChildTwo  {
+         margin-top: 15px; 
+     }
+ }
+ @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+    .linkBioWrapper  {
+         margin-top: 20%; 
+     }
+ }
+
+/* ------------------Projects----------- */
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+    .wholeThing  {
+          margin-top: 50px;
+          margin-left: 1px;
+          justify-content: center;
+     }
+ }
+
+/* ----------Contact------------------- */
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
+    .contactListDiv {
+        position: static;
+        text-align: center;
+        padding-right: 45px;
+        font-size: 40px;
     }
 }
+
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
+   .block {
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
+
+/* -----------MEDIA QUERIES 768-1024 LANDSCAPE---TABLETS, IPADS */
+/* BIO*/
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    #bioPic {
+        height: 400px;
+        width:px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;   
+     }
+ }
+
+ @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    #bioGif {
+        display:none;
+
+    }}
+
+    @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    #bioPic {
+            height: 500px;
+            width: px;
+            margin-top: 10px;
+    
+        }}
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .bioChildTwo  {
+                 margin-top: 10px; 
+                 margin-left: 20px;
+                 margin-right: 20px;
+             }
+            }
+
+/* PROJECTS */
+    @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    .wholeThing  {
+          margin-top: 50px;
+          margin-left: 20px;
+          margin-right: 20px;
+     }
+ }
+
+ /* CONTACT  */
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+    .contactListDiv {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+   .block {
+        padding: 20px;
+        margin-left: 60px;
+    }
+}
+
+
+/* media queries ipad pro 1024-1336 portrait */
+
+/* BIO */
+@media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait){
+  #bioPic {
+      height: 500px;
+      margin-top: 60px;
+        
+     }
+ }
+
+ @media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait){
+    #bioGif {
+        display:;
+
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait){
+        .bioChildTwo {
+            margin-left: 20px;
+            margin-right: 20px;
+    
+        }}
+
+@media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait) {
+            .linkBioWrapper  {
+                 margin-top: 40%; 
+             }
+         }
+        
+    /*  LANDSCAPE*/
+
+
+@media (min-width: 1025px) and (max-width: 1336px) and (orientation: Landscape) {
+            #bioGif  {
+                 display: ;
+             }
+         }
+
+
+
+
+
+
+/* media queries min width 1824 large screen */
+
+/* BIO */
+
