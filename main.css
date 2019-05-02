@@ -32,14 +32,12 @@ a {
     justify-content: center;
 }
 
-
 .linkWrapperMain {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 4em;
 }
-
 
 .hvr-grow {
     display: inline-block;
@@ -56,49 +54,30 @@ a {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-    transform: scale(1.2);
+        transform: scale(1.2);
 }
 
-/* bio--------------------------------- */
+/* BIO */
 
-#bioContainer {
-    display: flex;
-
-}
-
-.bioChildOne {
-    flex-grow: 1;
-    flex-basis: 100px;
-    padding-left: 10px;
-}
-
-.bioChildTwo {
-    flex-grow: 2;
-    padding-left: 15px;
-    padding-right: 30px;
-    margin-top: 70px;
+ .bioDiv {
+    height: 65%;
+    width: 65%;
+    margin: auto;
     font-size: 15px;
-    font-family: 'Oswald', sans-serif;
-}
-
-.linkBioWrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 4em;
-    margin-top: 3%;
-}
-
-#bioGif {
-    border-radius: 50%;
-}
+    font-family: 'Oswald', sans-serif; 
+} 
 
 #bioPic {
-    display: none ;
-}
+    height: 65%;
+    width: 65%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+} 
+      
 
-
-/* --------------------Projects */
+/* PROJECTS */
 
 h2 {
     background-color: deepskyblue;
@@ -115,7 +94,6 @@ h2 {
     padding-top: 10px;
     margin-top: px;
     margin-left: 100px;
-    /* border: 2px solid black; */
     }
 
 .picContainer {
@@ -134,11 +112,11 @@ h2 {
     justify-content: flex-start;
     padding-left: 40px;
     font-weight: bold;
-    /* border: 2px solid black; */
     width: 500px;
     padding-top: 25px;
     height: 300px;
 }
+
 .img {
     border-radius: 50%;
     display: flex;
@@ -147,14 +125,13 @@ h2 {
     justify-content: center;
     overflow: hidden;
     position: relative;
-  
-  }
+}
 
   .img img {
     height: 100%;
-  }
+}
 
-  .img__overlay {
+.img__overlay {
     align-items: center;
     bottom: 0;
     display: flex;
@@ -166,7 +143,6 @@ h2 {
     top: 0;
     transition: opacity 0.25s;
     z-index: 1;
-    
     background-color: rgba((116, 10, 93,));
     background: linear-gradient(65deg, rgba(111, 91, 183, 0.69), rgba(33, 10, 116, 0.69)); 
     color: white;
@@ -181,7 +157,6 @@ h2 {
 .nameMobile {
     display: none;
 }
-
 
 .bold:after {
     content: ' \22EF' ' \22EF';
@@ -201,10 +176,10 @@ h2 {
 
 .img__overlay:hover {
     opacity: 1;
-  }
+}
   
    
-/* -------contact------------------- */
+/* CONTACTS */
 
 #shower {
     height: 50%;
@@ -233,13 +208,9 @@ h2 {
     background-color: deepskyblue;
 }
 
+/* -----------MEDIA QUERIES 320-479--MOST SMART PHONES---------------------------------------------------- */
 
-
-
-
-/* -----------media queries 320-479--MOST SMART PHONES------------------------- */
-
-/* NAVIGATION BAR---------------- */
+/* NAVIGATION BAR */
 
 @media (min-width: 320px) and (max-width: 479px) {
     .navName {
@@ -263,7 +234,7 @@ h2 {
     }
 }
 
-/* ------------------contacts------------------- */
+/* CONTACTS*/
 
 @media (min-width: 320px) and (max-width: 479px) {
     .block {
@@ -279,29 +250,11 @@ h2 {
     }
 }
 
-/* ------------------bio--------------------------- */
-
-@media (min-width: 320px) and (max-width: 479px) {
-    #bioGif {
-        display: none;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 479px) {
-    .bioChildTwo {
-        margin-top: 20px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 479px) {
-    .bioPic {
-      
-    }
-}
+/* BIO*--No Changes/
 
 
+/* PROJECTS */
 
-/* -----------------projects----------------------- */
 @media (min-width: 320px) and (max-width: 479px) {
     .wholeThing {
         display: flex;
@@ -341,27 +294,20 @@ h2 {
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
-    .img{
+    .img {
       border-radius:100%;
       height: 250px;
       width: 250px;
-   
-
-    }}
-
+    }
+}
 
 
-  
-
-/* ----------MEDIA QUERIES 768-1023 LANDSCAPE --TABLETS, IPADS */
-/* looks good */
+/* ----------MEDIA QUERIES 768-1023 LANDSCAPE --TABLETS, IPADS----------------------------------- */
+/* no changes */
 
 
+/* ----------MEDIA QUERIES 768-1024 PORTRAIT---TABLETS, IPADS -------------------------------------*/
 
-
-
-
-/* ----------MEDIA QUERIES 768-1024 PORTRAIT---TABLETS, IPADS */
 /* NAV BAR */
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
     .navName {
@@ -386,36 +332,9 @@ h2 {
 }
 
 /* BIO */
-@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
-   #bioPic  {
-        
-        height: 400px;
-        width:px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;   
-    }
-}
+/* no changes */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    #bioGif  {
-         display: none; 
-     }
- }
-
- @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
-    .bioChildTwo  {
-         margin-top: 15px; 
-     }
- }
- @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
-    .linkBioWrapper  {
-         margin-top: 20%; 
-     }
- }
-
-/* ------------------Projects----------- */
+/* PROJECTS */
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
     .wholeThing  {
@@ -425,7 +344,7 @@ h2 {
      }
  }
 
-/* ----------Contact------------------- */
+/* CONTACTS */
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
     .contactListDiv {
@@ -436,56 +355,16 @@ h2 {
     }
 }
 
-
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait){
    .block {
         padding: 15px;
     }
 }
 
-
-
-
-
-
-
-/* -----------MEDIA QUERIES 768-1024 LANDSCAPE---TABLETS, IPADS */
-/* BIO*/
-@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
-    #bioPic {
-        height: 400px;
-        width:px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;   
-     }
- }
-
- @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
-    #bioGif {
-        display:none;
-
-    }}
-
-    @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
-    #bioPic {
-            height: 500px;
-            width: px;
-            margin-top: 10px;
-    
-        }}
-
-    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .bioChildTwo  {
-                 margin-top: 10px; 
-                 margin-left: 20px;
-                 margin-right: 20px;
-             }
-            }
+/* -----------MEDIA QUERIES 768-1024 LANDSCAPE---TABLETS, IPAD */
 
 /* PROJECTS */
-    @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
     .wholeThing  {
           margin-top: 50px;
           margin-left: 20px;
@@ -494,7 +373,7 @@ h2 {
  }
 
  /* CONTACT  */
-  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape){
     .contactListDiv {
         font-size: 30px;
     }
@@ -508,52 +387,25 @@ h2 {
 }
 
 
-/* media queries ipad pro 1024-1336 portrait */
+/* ------MEDIA QUERIES 1024-1336 PORTRAIT ---IPAD PRO----------------------------------------*/
 
 /* BIO */
-@media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait){
-  #bioPic {
-      height: 500px;
-      margin-top: 60px;
-        
-     }
- }
-
- @media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait){
-    #bioGif {
-        display:;
-
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait){
-        .bioChildTwo {
-            margin-left: 20px;
-            margin-right: 20px;
-    
-        }}
 
 @media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait) {
             .linkBioWrapper  {
-                 margin-top: 40%; 
+                 margin-top: 80%; 
              }
          }
         
-    /*  LANDSCAPE*/
+ /*---- MEDIA QUERIES 1024-1336 LANDSCAPE---IPAD PRO  LANDSCAPE*-------------------------/
 
-
-@media (min-width: 1025px) and (max-width: 1336px) and (orientation: Landscape) {
-            #bioGif  {
-                 display: ;
+@media (min-width: 1024px) and (max-width: 1336px) and (orientation: landscape) {
+            .linkBioWrapper  {
+                 margin-top: 100%; 
              }
          }
 
-
-
-
-
-
-/* media queries min width 1824 large screen */
+/* MEDIA QUERIES min width 1824 --LARGE SCREEN */
 
 /* BIO */
 
