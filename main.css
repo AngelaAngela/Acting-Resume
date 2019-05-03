@@ -12,6 +12,9 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     text-decoration: none;
+    height: 90px;
+    border-bottom: black solid 1px;
+    
 }
 
 .navName {
@@ -32,6 +35,9 @@ a {
     justify-content: center;
 }
 
+#topPic {
+    padding-top: 10px;
+}
 .linkWrapperMain {
     display: flex;
     justify-content: space-around;
@@ -60,21 +66,29 @@ a {
 /* BIO */
 
  .bioDiv {
-    height: 65%;
-    width: 65%;
+    height: 100%;
+    width: 70%;
     margin: auto;
-    font-size: 15px;
-    font-family: 'Oswald', sans-serif; 
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;  
 } 
 
 #bioPic {
-    height: 65%;
-    width: 65%;
+    height: 70%;
+    width: 70%;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 30px;
+    margin-top: 40px;
+    border: black solid 2px;
 } 
+
+.linkWrapperBio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4em;
+}
       
 
 /* PROJECTS */
@@ -91,8 +105,7 @@ h2 {
 .wholeThing {
     display: flex;
     padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: px;
+    padding-top: 80px;
     margin-left: 100px;
     }
 
@@ -106,6 +119,7 @@ h2 {
     border-radius: 50%;
     height: 400px;
     width: 400px;
+    border: black solid 2px;
 }
 
 .paraContainer {
@@ -113,7 +127,7 @@ h2 {
     padding-left: 40px;
     font-weight: bold;
     width: 500px;
-    padding-top: 25px;
+    padding-top: 55px;
     height: 300px;
 }
 
@@ -182,8 +196,10 @@ h2 {
 /* CONTACTS */
 
 #shower {
+    padding-top: 10px;
     height: 50%;
     width: 100%;
+    border: black solid px;
 }
 
 .contactDiv {
@@ -193,15 +209,16 @@ h2 {
 
 .contactListDiv {
     position: absolute;
-    top: 7px;
-    right: 10px;
-    font-size: 25px;
+    top: 1px;
+    right: 12px;
+    font-size: 30px;
     font-weight: bolder;
+    
 }
 
 .block {
     display: block;
-    padding: 30px;
+    padding: 25px;
 }
 
 .contacts {
@@ -247,6 +264,7 @@ h2 {
         position: static;
         text-align: center;
         padding-right: 45px;
+        font-size: 1.5em;
     }
 }
 
@@ -259,7 +277,6 @@ h2 {
     .wholeThing {
         display: flex;
         margin: auto;
-        margin-top: 70px;
         width: 300px;
         height: 300px;
     }
@@ -331,6 +348,14 @@ h2 {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+    .linkWrapperBio {
+        height: 24em;
+    }
+}
+
+
+
 /* BIO */
 /* no changes */
 
@@ -343,6 +368,7 @@ h2 {
           justify-content: center;
      }
  }
+
 
 /* CONTACTS */
 
@@ -390,22 +416,61 @@ h2 {
 /* ------MEDIA QUERIES 1024-1336 PORTRAIT ---IPAD PRO----------------------------------------*/
 
 /* BIO */
-
 @media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait) {
-            .linkBioWrapper  {
-                 margin-top: 80%; 
+            .linkWrapperBio  {
+                 margin-top: 29em; 
+             }
+         }    
+/*PROJECTS */
+@media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait) {
+         .wholeThing{
+            margin-left: 75px; 
+            margin-right: 75px;
              }
          }
-        
- /*---- MEDIA QUERIES 1024-1336 LANDSCAPE---IPAD PRO  LANDSCAPE*-------------------------/
+/* CONTACTS */
+@media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait) {
+         .contactListDiv{
+            position: static;
+            text-align: center;
+            padding-right: 45px;
+            font-size: 4em;
+            
+             }
+         }
 
-@media (min-width: 1024px) and (max-width: 1336px) and (orientation: landscape) {
-            .linkBioWrapper  {
-                 margin-top: 100%; 
-             }
-         }
+
+
+         
+ /*---- MEDIA QUERIES 1024-1336 LANDSCAPE---IPAD PRO  LANDSCAPE*-------------------------*/
+ 
+ /* none */
+
 
 /* MEDIA QUERIES min width 1824 --LARGE SCREEN */
 
 /* BIO */
 
+@media (min-width: 1824px) {
+    .linkWrapperBio  {
+         margin-top: 5em; 
+     }
+ }    
+
+ /* PROJECTS */
+ 
+ 
+@media (min-width: 1824px) {
+        .paraContainer{
+            padding-left: 60px;
+                   }
+               }
+@media (min-width: 1824px) {
+        .wholeThing{
+        justify-content: center;
+                           }
+                       } 
+
+/* CONTACTS */
+@media (min-width: 1824px){
+    
