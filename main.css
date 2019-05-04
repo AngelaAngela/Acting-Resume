@@ -277,7 +277,13 @@ h2 {
     }
 }
 
-/* BIO*--No Changes/
+/* BIO*/
+
+@media (min-width: 320px) and (max-width: 479px) {
+   .bioDiv {
+        width: 100%;
+    }
+}
 
 
 /* PROJECTS */
@@ -366,7 +372,17 @@ h2 {
 
 
 /* BIO */
-/* no changes */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bioDiv {
+         width: 80%;
+     }
+ }
+
+ @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .linkWrapperBio {
+        height: 2em;
+    }
+}
 
 /* PROJECTS */
 
@@ -427,9 +443,15 @@ h2 {
 /* BIO */
 @media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait) {
             .linkWrapperBio  {
-                 margin-top: 17em; 
+                 margin-top: 15em; 
              }
          }    
+
+@media (min-width: 1024px) and (max-width: 1336px) {
+            .bioDiv {
+                 width: 77%;
+             }
+         }
 /*PROJECTS */
 @media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait) {
          .wholeThing{
