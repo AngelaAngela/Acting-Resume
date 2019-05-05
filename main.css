@@ -7,13 +7,28 @@ a {
     text-decoration: none;
     color: black;
 }
-
-#timeLine{
-    display: block;
-    list-style: none;
+/* ------------------------- */
+.pic {
+    height: 150px;
+    width: 150px;
     
 }
 
+.item {
+    display: flex;
+    border: black solid 2px;
+    
+}
+
+.details {
+    padding-top: em;
+    padding-left: .5em;
+}
+
+.year {
+    font-weight: boldest;
+}
+/* ------------------------- */
 .navContainer {
     display: flex;
     flex-wrap: wrap;
@@ -72,11 +87,6 @@ a {
 
 /* BIO */
 
-#timeLine {
-    display: block;
-    list-style: none;
-    
-}
  .bioDiv {
     height: 100%;
     width: 75%;
