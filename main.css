@@ -62,7 +62,7 @@ a {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-        transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /* BIO */
@@ -71,33 +71,43 @@ a {
     width: 100px;
     border: black solid 1px;
     border-radius: 50%;
-   
-    
+    -webkit-transition-duration: 1s;
 }
-.pic:hover {
-	transform:scale(2,2);
-	transform-origin:0 0;
+.pic:hover{
+    height: 200px;
+    width: 200px;
+    -webkit-transition-duration: 1s;
 }
 
 .bioItem {
    display: flex;
    padding-top: 10px;
    margin-left: 8px;
-   
-   
-    
 }
 
 .details {
-    padding-top: 1.5em;
+    padding-top: em;
     padding-left: .5em;
+   
 }
 
+.details:hover{
+    padding-top: 1em;
+    padding-bottom: 1em;
+   
+}
 .year {
     font-weight: boldest;
+    margin-bottom: 1em;
+
 }
  
-
+/* .p {
+    padding-bottom: 1em;
+}
+.p:active {
+    font-size: 25px;
+} */
 .linkWrapperBio {
     display: flex;
     justify-content: space-around;
