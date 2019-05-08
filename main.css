@@ -16,6 +16,7 @@ a {
     text-decoration: none;
     height: 90px;
     border-bottom: black solid 1px;
+
 }
 
 .navName {
@@ -82,24 +83,24 @@ a {
 .bioItem {
    display: flex;
    padding-top: 10px;
-   margin-left: 8px;
+   margin-left: 15px;
+}
+
+.bioItemOne {
+    margin-top: 20px
 }
 
 .details {
-    padding-top: em;
-    padding-left: .5em;
-   
-}
-
-.details:hover{
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-left: .5em;
+    border-bottom: black solid 1px;
    
 }
-.year {
-    font-weight: boldest;
-    margin-bottom: 1em;
 
+.year {
+   font-weight: boldest;
+    margin-bottom: 1em;
+    color: deepskyblue;
 }
  
 #verticle-line {
@@ -107,7 +108,7 @@ a {
     min-height: 25px;
     background: black;
     margin-left: 60px;
-  }
+}
 
 .linkWrapperBio {
     display: flex;
