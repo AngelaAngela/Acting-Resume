@@ -102,12 +102,13 @@ a {
 
 }
  
-/* .p {
-    padding-bottom: 1em;
-}
-.p:active {
-    font-size: 25px;
-} */
+#verticle-line {
+    width: 1px;
+    min-height: 25px;
+    background: black;
+    margin-left: 60px;
+  }
+
 .linkWrapperBio {
     display: flex;
     justify-content: space-around;
