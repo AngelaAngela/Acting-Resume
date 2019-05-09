@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: snow; 
+    
 }
 
 a {
@@ -16,13 +17,14 @@ a {
     text-decoration: none;
     height: 90px;
     border-bottom: black solid 1px;
-
+    font-weight: 100;
 }
 
 .navName {
     font-size: 3em;
     padding-left: .5em;
     padding-top: .1em;
+    
 }
 
 .item {
@@ -73,11 +75,14 @@ a {
     border: black solid 1px;
     border-radius: 50%;
     -webkit-transition-duration: 1s;
-}
+    transition-duration: 1s;
+}  
+
 .pic:hover{
     height: 200px;
     width: 200px;
     -webkit-transition-duration: 1s;
+    transition-duration: 1s;
 }
 
 .bioItem {
@@ -152,7 +157,6 @@ h2 {
 .paraContainer {
     justify-content: flex-start;
     padding-left: 40px;
-    font-weight: bold;
     width: 500px;
     padding-top: 55px;
     height: 300px;
@@ -188,7 +192,7 @@ h2 {
     background: linear-gradient(65deg, rgba(111, 91, 183, 0.69), rgba(33, 10, 116, 0.69)); 
     color: white;
     font-size: 24px;
-  }
+}
 
 #filmShortage {
     height: 100px;
@@ -208,11 +212,11 @@ h2 {
 }
 .italic {
     font-style: italic;
-    font-weight: bold;
 }
 
 .projectLink:hover {
     text-decoration: underline;
+    color: deepskyblue;
 }
 
 .img__overlay:hover {
@@ -243,10 +247,11 @@ h2 {
 .block {
     display: block;
     padding: 25px;
+  
 }
 
 .contacts {
-    background-color: deepskyblue;
+    color: deepskyblue;
 }
 
 /* -----------MEDIA QUERIES 320-479--MOST SMART PHONES---------------------------------------------------- */
@@ -446,8 +451,8 @@ h2 {
 @media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait) {
             .linkWrapperBio  {
                  margin-top: 4em; 
-             }
-         }    
+        }
+    }    
 
 
 /*PROJECTS */
@@ -455,8 +460,9 @@ h2 {
          .wholeThing{
             margin-left: 75px; 
             margin-right: 75px;
-             }
          }
+    }
+
 /* CONTACTS */
 @media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait) {
          .contactListDiv{
@@ -464,8 +470,8 @@ h2 {
             text-align: center;
             padding-right: 45px;
             font-size: 60px;
-            }
-         }
+        }
+    }
 @media (min-width: 1024px) and (max-width: 1336px) and (orientation: portrait){
     
         .block {
@@ -487,24 +493,23 @@ h2 {
 
 @media (min-width: 1824px) {
     .linkWrapperBio  {
-         margin-top: 5em; 
-     }
- }    
+         margin-top: 2em; 
+    }
+}
 
  /* PROJECTS */
  
- 
-@media (min-width: 1824px) {
+ @media (min-width: 1824px) {
         .paraContainer{
             padding-left: 60px;
-                   }
-               }
+    }
+}
 
 @media (min-width: 1824px) {
         .wholeThing{
         justify-content: center;
-                           }
-                       } 
+    }
+} 
 
 /* CONTACTS */
 @media (min-width: 1824px){
@@ -512,3 +517,4 @@ h2 {
         font-size: 55px;
     }
 }
+
